@@ -30,5 +30,5 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: deploying using surge
-      run: surge ./index.html bootcamp-freelance.surge.sh/ --token $ {{secrets.BOOTCAMP_FREELANCE_2020}}
+      run: surge ./index.html http://bootcamp-freelance.surge.sh/ --token ${{secrets.BOOTCAMP_FREELANCE_2020}}
 
